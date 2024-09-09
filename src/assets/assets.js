@@ -1,10 +1,10 @@
 import appointment_img from "./appointment_img.png";
 // import header_img from "./header_img.png";
 // import group_profiles from "./group_profiles.png";
-// import profile_pic from "./profile_pic.png";
+import profile_pic from "./profile_pic.png";
 import about_image from "./about_image.jpeg";
 import logo from "./logo.png";
-// import dropdown_icon from "./dropdown_icon.svg";
+import dropdown_icon from "./dropdown_icon.png";
   // import menu_icon from "menu_icon.svg";
 // import cross_icon from "cross_icon.png";
 // import chats_icon from "./chats_icon.svg";
@@ -37,10 +37,10 @@ export const assets = {
   // appointment_img,
   // header_img,
   // group_profiles,
-  // profile_pic,
+  profile_pic,
   about_image,
   logo,
-  // dropdown_icon,
+  dropdown_icon,
   // menu_icon,
   // cross_icon,
   // chats_icon,
