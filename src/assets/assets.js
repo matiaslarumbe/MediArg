@@ -9,7 +9,7 @@ import dropdown_icon from "./dropdown_icon.png";
 // import cross_icon from "cross_icon.png";
 // import chats_icon from "./chats_icon.svg";
 // import verified_icon from "./verified_icon.svg";
-// import arrow_icon from "./arrow_icon.svg";
+import arrow_icon from "./arrow_icon.png";
 // import info_icon from "./info_icon.svg";
 // import upload_icon from "upload_icon.png";
 // import stripe_logo from "./stripe_logo.png";
@@ -45,7 +45,7 @@ export const assets = {
   // cross_icon,
   // chats_icon,
   // verified_icon,
-  // arrow_icon,
+  arrow_icon,
   // info_icon,
   // upload_icon,
   // stripe_logo,
@@ -216,7 +216,7 @@ export const doctors = [
   },
   {
     _id: "doc10",
-    name: "Dr Porro, Armando",
+    name: "Dra Porro, Jazmin",
     image: doc10,
     speciality: "Medico general",
     degree: "Universidad UBA de BS As",

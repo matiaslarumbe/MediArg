@@ -14,7 +14,7 @@ const Header = () => {
                 <p>Simplemente navegue por nuestra extensa lista de médicos de confianza y < br className='hidden sm:block'/>programe su cita sin problemas.</p>
               </div>
               <a href="#speciality" className='flex items-center gap-2 bg-white px-8 py-3 rounded-full text-gray-600 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300'>
-                Reservar cita <img src={assets} alt="" />
+                Reservar cita <img className='w-3' src={assets.arrow_icon} alt="" />
               </a>
           </div>
 
