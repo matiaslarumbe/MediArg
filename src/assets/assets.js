@@ -34,7 +34,7 @@ import Dentist from "./odontologia-icon.png";
 import Cardiologist from "./cardiologia-icon.png";
 
 export const assets = {
-  // appointment_img,
+  appointment_img,
   header_img,
   group_profiles,
   profile_pic,
