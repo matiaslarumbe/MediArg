@@ -8,9 +8,9 @@ import dropdown_icon from "./dropdown_icon.png";
   // import menu_icon from "menu_icon.svg";
 // import cross_icon from "cross_icon.png";
 // import chats_icon from "./chats_icon.svg";
-// import verified_icon from "./verified_icon.svg";
+import verified_icon from "./verified_icon.png";
 import arrow_icon from "./arrow_icon.png";
-// import info_icon from "./info_icon.svg";
+import info_icon from "./info_icon.png";
 // import upload_icon from "upload_icon.png";
 // import stripe_logo from "./stripe_logo.png";
 // import razorpay_logo from "./razorpay_logo.png";
@@ -44,9 +44,9 @@ export const assets = {
   // menu_icon,
   // cross_icon,
   // chats_icon,
-  // verified_icon,
+  verified_icon,
   arrow_icon,
-  // info_icon,
+  info_icon,
   // upload_icon,
   // stripe_logo,
   // razorpay_logo,
@@ -109,7 +109,7 @@ export const doctors = [
     speciality: "Medico general",
     degree: "Universidad UBA de BS As",
     experience: "6 Años",
-    about: "Dra Perez ha realizado su carrera en...",
+    about: "Dr Perez ha realizado su carrera en...",
     fees: 3800,
     adrees: {
       linea1: "Andres Baranda 1100, Quilmes",
