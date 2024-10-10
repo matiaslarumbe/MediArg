@@ -99,9 +99,9 @@ export const doctors = [
     experience: "4 Años",
     about: "Dra Lopez ha realizado su carrera en...",
     fees: 4000,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -113,9 +113,9 @@ export const doctors = [
     experience: "6 Años",
     about: "Dr Perez ha realizado su carrera en...",
     fees: 3800,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -127,9 +127,9 @@ export const doctors = [
     experience: "6 Años",
     about: "Dra Juarez ha realizado su carrera en...",
     fees: 4000,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -141,9 +141,9 @@ export const doctors = [
     experience: "4 Años",
     about: "Dra Mobilia ha realizado su carrera en...",
     fees: 4000,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -155,9 +155,9 @@ export const doctors = [
     experience: "2 Años",
     about: "Dr Zaracho ha realizado su carrera en...",
     fees: 4200,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -169,9 +169,9 @@ export const doctors = [
     experience: "6 Años",
     about: "Dra Cruz ha realizado su carrera en...",
     fees: 4000,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -183,9 +183,9 @@ export const doctors = [
     experience: "4 Años",
     about: "Dr Orellana ha realizado su carrera en...",
     fees: 4100,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
   {
@@ -197,7 +197,7 @@ export const doctors = [
     experience: "4 Años",
     about: "Dra Gimenez ha realizado su carrera en...",
     fees: 4300,
-    adrees: {
+    address: {
       linea1: "Andres Baranda 1100, Quilmes",
       linea2: "Azcuenaga 910, CABA",
     },
@@ -211,7 +211,7 @@ export const doctors = [
     experience: "4 Años",
     about: "Dra Riveras ha realizado su carrera en...",
     fees: 3800,
-    adrees: {
+    address: {
       linea1: "Andres Baranda 1100, Quilmes",
       linea2: "Azcuenaga 910, CABA",
     },
@@ -225,9 +225,9 @@ export const doctors = [
     experience: "5 Años",
     about: "Dra Porro ha realizado su carrera en...",
     fees: 3800,
-    adrees: {
-      linea1: "Andres Baranda 1100, Quilmes",
-      linea2: "Azcuenaga 910, CABA",
+    address: {
+      line1: "Andres Baranda 1100, Quilmes",
+      line2: "Azcuenaga 910, CABA",
     },
   },
 ];

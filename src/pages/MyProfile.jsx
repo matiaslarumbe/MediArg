@@ -63,27 +63,27 @@ const MyProfile = () => {
       <div>
         <p className="text-neutral-500 underline mt-3">INFORMACION BASICA</p>
         <div className="grid grid-cols-[1fr_3fr] gap-y-2.5 mt-3 text-neutral-700">
-          <p>Genero:</p>
-          {isEdit ? <select onChange={(e)=> setUserData(prev =>({...prev,gender: e.target.value}))} value={userData.gender}>
+          <p className="font-medium">Genero:</p>
+          {isEdit ? <select className="max-w-20 bg-gray-100" onChange={(e)=> setUserData(prev =>({...prev,gender: e.target.value}))} value={userData.gender}>
             <option value="Masculino">Masculino</option>
             <option value="Femenino">Femenino</option>
           </select>
-          : <p>{userData.gender} </p>
+          : <p className="text-gray-400">{userData.gender} </p>
       }
-      <p>Fecha de nacimiento:</p>
+      <p className="font-medium">Fecha de nacimiento:</p>
       {
         isEdit
-        ? <input type="date" onChange={(e)=> setUserData(prev =>({...prev,dob: e.target.value}))} value={userData.dob} />
-        : <p>{userData.dob} </p>
+        ? <input className="max-w-28 bg-gray-100" type="date" onChange={(e)=> setUserData(prev =>({...prev,dob: e.target.value}))} value={userData.dob} />
+        : <p className="text-gray-400">{userData.dob} </p>
       }
         </div>
       </div>
 
-      <div>
+      <div className="mt-10">
         {
           isEdit
-          ? <button onClick={()=>setIsEdit(false)}>Guardar Informacion</button>
-          : <button onClick={()=>setIsEdit(true)}>Editar</button>
+          ? <button className="border border-primary px-8 py-2 rounded-full hover:bg-primary hover:text-white transition-all" onClick={()=>setIsEdit(false)}>Guardar Informacion</button>
+          : <button className="border border-primary px-8 py-2 rounded-full  hover:bg-primary hover:text-white transition-all" onClick={()=>setIsEdit(true)}>Editar</button>
         }
       </div>
 
