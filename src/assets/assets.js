@@ -6,8 +6,8 @@ import about_image from "./about_image.jpeg";
 import contact_image from "./contact_image.jpeg"
 import logo from "./logo.png";
 import dropdown_icon from "./dropdown_icon.png";
-  // import menu_icon from "menu_icon.svg";
-// import cross_icon from "cross_icon.png";
+  import menu_icon from "./menu_icon.png";
+import cross_icon from "./cross_icon.png";
 // import chats_icon from "./chats_icon.svg";
 import verified_icon from "./verified_icon.png";
 import arrow_icon from "./arrow_icon.png";
@@ -43,8 +43,8 @@ export const assets = {
   contact_image,
   logo,
   dropdown_icon,
-  // menu_icon,
-  // cross_icon,
+  menu_icon,
+  cross_icon,
   // chats_icon,
   verified_icon,
   arrow_icon,
